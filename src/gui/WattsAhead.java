@@ -152,6 +152,7 @@ public class WattsAhead extends JFrame{
 
 	private final JTextArea spectacularPrompt = new JTextArea();
 	public WattsAhead() {
+		System.out.println("Application written by Joseph Ayoade for Cleaning, aggregating, interpolation and transformation of energy availability dataset. 2025");
 		txtWeatherUrl.setHorizontalAlignment(SwingConstants.RIGHT);
 		txtWeatherUrl.setText("http://tus-project.iq-joy.com/weather_metrics.php");
 		txtWeatherUrl.setColumns(10);
